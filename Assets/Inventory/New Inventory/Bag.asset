@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a27d0e13b919de4d8e47dced71a2a48, type: 3}
+  m_Script: {fileID: 11500000, guid: e393e7bdce7a1f14983a17220776d48f, type: 3}
   m_Name: Bag
   m_EditorClassIdentifier: 
-  itemList:
-  - {fileID: 11400000, guid: d197764ee4dfe8547a65c6a5756db04b, type: 2}
+  itemList: []

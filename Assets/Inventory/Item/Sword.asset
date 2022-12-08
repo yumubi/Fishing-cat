@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbe5ee1b4e026ba46a028401995d2761, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b4a31e9c83d34c498e9fa2468610835, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: 
   itemName: Sword
-  itemImage: {fileID: 21300002, guid: 03dd1ef6fb163214c9e1ac0242dab3ba, type: 3}
+  itemImage: {fileID: 21300000, guid: 62f1d649bffcd45448c1a4767fdbd582, type: 3}
   itemHeld: 1
-  itemInfo: "\u6211\u5C31\u662F\u4E00\u628A\u5251"
+  itemInfo: "\u6211\u5C31\u662F\u5251"
   equip: 1
