@@ -21,13 +21,18 @@ MonoBehaviour:
   m_Registries:
   - m_Id: main
     m_Name: 
+<<<<<<< HEAD
     m_Url: https://packages.unity.com
+=======
+    m_Url: https://packages.unity.cn
+>>>>>>> 9a608db (backup)
     m_Scopes: []
     m_IsDefault: 1
     m_Capabilities: 7
   m_UserSelectedRegistryName: 
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
+<<<<<<< HEAD
     m_ErrorMessage: 
     m_Original:
       m_Id: 
@@ -42,3 +47,10 @@ MonoBehaviour:
     m_Scopes:
     - 
     m_SelectedScopeIndex: 0
+=======
+    m_Modified: 0
+    m_ErrorMessage: 
+    m_UserModificationsInstanceId: -828
+    m_OriginalInstanceId: -830
+  m_LoadAssets: 0
+>>>>>>> 9a608db (backup)

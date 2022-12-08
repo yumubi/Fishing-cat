@@ -4,7 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
+<<<<<<< HEAD
 //背包管理器，挂载在Canvas上
+=======
+//背包管理器，挂载在Canvas上S
+>>>>>>> 9a608db (backup)
 public class InventoryManager : MonoBehaviour
 {
 
