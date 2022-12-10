@@ -9,12 +9,15 @@ public class InventoryManager : MonoBehaviour
 {
 
 
+    public static Slot onChoosedItem;
     static InventoryManager instance;
+    
 
     public Inventory Bag;
     public GameObject slotGrid;
     public Slot slotPrefab;
     public Text itemInformation;
+
 
     private void Awake()
     {
@@ -32,15 +35,15 @@ public class InventoryManager : MonoBehaviour
     //控制道具描述信息的显示
     public static void UpdateItemInfo(string itemDescription)
     {
-     instance.itemInformation.text = itemDescription;
+        instance.itemInformation.text = itemDescription;
     }
-
     //如果背包中不存在该道具，则在背包面板中添加该道具
     public static void CreateNewItem(Item item)
     {
         Slot newItem = Instantiate(instance.slotPrefab, instance.slotGrid.transform.position, Quaternion.identity);
         newItem.gameObject.transform.SetParent(instance.slotGrid.transform);
         newItem.slotItem = item;
+        if (newItem.slotItem.itemHeld == 0) newItem.slotItem.itemHeld = 1;
         newItem.slotImage.sprite = item.itemImage;
         newItem.slotNum.text = item.itemHeld.ToString();
     }

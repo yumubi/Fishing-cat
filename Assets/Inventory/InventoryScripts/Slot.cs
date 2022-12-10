@@ -13,6 +13,9 @@ public class Slot : MonoBehaviour
     //点击道具则显示描述信息
     public void ItemOnClicked()
     {
-        InventoryManager.UpdateItemInfo(slotItem.itemInfo); 
+    
+        InventoryManager.UpdateItemInfo(slotItem.itemInfo);
+        InventoryManager.onChoosedItem = this;
+        
     }
 }
